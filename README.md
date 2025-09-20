@@ -17,4 +17,8 @@ A simple and responsive film search web app that lets you search for films by ac
 - Local JSON file parsing via XMLHttpRequest
 
 ## 📁 Folder Structure
-
+/Movie Mesh
+├── index.html
+├── index.js
+├── style.css
+└── server.json
