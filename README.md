@@ -1,15 +1,20 @@
 # Movie-Mesh
+A simple and responsive film search web app that lets you search for films by actor name using vanilla JavaScript, JSON data, and dynamic DOM rendering.
 
-🎬 Film Search Web App | HTML, CSS, JavaScript
-- Built a responsive single-page application for searching films by actor name using vanilla JS.
-- Fetched and parsed local JSON data to dynamically render film information (actor, title, director).
-- Implemented user-friendly UI with Flexbox and CSS styling; handled edge cases and empty results.
+## 🚀 Live Demo
+[View on GitHub Pages](https://your-username.github.io/starfindr/)
 
-🎬 Film Search
-[ Search by actor name... ]
+## 🔧 Tech Stack
+- HTML5
+- CSS3 (Flexbox)
+- JavaScript (Vanilla)
+- JSON (local dataset)
 
-┌────────────────────────┐    ┌────────────────────────┐
-│  Amitabh Bachchan      │    │  Deepika Padukone      │
-│  Film: Sholay          │    │  Film: Padmaavat       │
-│  Director: Ramesh Sippy│    │  Director: SL Bhansali │
-└────────────────────────┘    └────────────────────────┘
+## 📦 Features
+- Real-time actor name search
+- Dynamic film card generation
+- Responsive UI
+- Local JSON file parsing via XMLHttpRequest
+
+## 📁 Folder Structure
+
