@@ -3,6 +3,7 @@ window.addEventListener('DOMContentLoaded', () => {
   const container = document.getElementById('container');
   let filmData = [];
 
+  // Fetch JSON data
   const xhr = new XMLHttpRequest();
   xhr.open('GET', './server.json');
   xhr.send();
@@ -13,13 +14,14 @@ window.addEventListener('DOMContentLoaded', () => {
         filmData = JSON.parse(xhr.responseText);
         console.log('Data loaded:', filmData);
 
-      
+        // Add search listener only after data is loaded
         input.addEventListener('input', () => {
-          const search = input.value.toLowerCase();
+          const search = input.value.toLowerCase().trim();
           container.innerHTML = '';
 
+       
           const results = filmData.filter(film =>
-            film.actor.toLowerCase().includes(search) // more flexible search
+            film.actor.toLowerCase().includes(search)
           );
 
           if (results.length === 0) {
