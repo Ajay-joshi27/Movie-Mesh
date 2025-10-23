@@ -1,0 +1,12 @@
+[
+  { "actor": "Amitabh Bachchan", "film": "Sholay", "director": "Ramesh Sippy" },
+  { "actor": "Rajinikanth", "film": "Kabali", "director": "Pa. Ranjith" },
+  { "actor": "Deepika Padukone", "film": "Padmaavat", "director": "Sanjay Leela Bhansali" },
+  { "actor": "Shah Rukh Khan", "film": "Dilwale Dulhania Le Jayenge", "director": "Aditya Chopra" },
+  { "actor": "Priyanka Chopra", "film": "Bajirao Mastani", "director": "Sanjay Leela Bhansali" },
+  { "actor": "Aamir Khan", "film": "Lagaan", "director": "Ashutosh Gowariker" },
+  { "actor": "Ranbir Kapoor", "film": "Barfi!", "director": "Anurag Basu" },
+  { "actor": "Katrina Kaif", "film": "Zindagi Na Milegi Dobara", "director": "Zoya Akhtar" },
+  { "actor": "Naseeruddin Shah", "film": "The Man Who Knew Infinity", "director": "Matthew Brown" },
+  { "actor": "Kareena Kapoor", "film": "Jab We Met", "director": "Imtiaz Ali" }
+]
