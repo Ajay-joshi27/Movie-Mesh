@@ -29,7 +29,7 @@ window.addEventListener('DOMContentLoaded', () => {
     container.innerHTML = '';
 
     const results = filmData.filter(film =>
-      film.film.toLowerCase().startsWith(search)
+      film.actor.toLowerCase().startsWith(search)
     );
 
     if (results.length === 0) {
@@ -52,3 +52,4 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
